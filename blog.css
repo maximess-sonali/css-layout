@@ -1,0 +1,24 @@
+.parent {
+    width:1000px;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center;
+    align-items: center; */
+    /* margin: 0 auto; */
+}
+
+.child {
+    width:50%;
+    border: 2px solid red;
+    padding:10px;
+    background-color: blue;
+    /* float:left;
+    clear:both; 
+     */
+}
+
+/* .child:even {
+   
+} */
+
+
