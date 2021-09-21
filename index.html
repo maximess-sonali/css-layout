@@ -30,8 +30,10 @@
             <article>
                 <header class="post-header">
                     <h2>The Basic Language of the Web: HTML</h2>
-                    <img class="author-img" src="img/laura-jones.jpg" height="55px" width="55px">
-                    <p class="author" id="author">Posted by<b> Laura Jones</b> on Monday, June 21st 2027</p>
+                    <div class="author-header">
+                        <img class="author-img" src="img/laura-jones.jpg" height="55px" width="55px">
+                        <p class="author" id="author">Posted by<b> Laura Jones</b> on Monday, June 21st 2027</p>
+                    </div>
                     <img class="post-image" src="img/post-img.jpg" height="55px" width="55px">
                 </header>
                 <p>All modern websites and web applications are built using three <em>fundamental</em> technologies: HTML, CSS and JavaScript. These are the languages of the web.</p>
@@ -60,18 +62,26 @@
             <aside>
                 <h4>Related Posts</h4>
                 <ul class="article-ul">
-                    <li>
+                    <li class="related-post">
                         <img src="img/related-1.jpg" height="75" width="75">
-                        <a href="#">How To Learn Web Development</a>
-                        <p class="related-author">BY Jones Schemedtmann</p>
+                        <div>
+                            <a href="#">How To Learn Web Development</a>
+                            <p class="related-author">BY Jones Schemedtmann</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="img/related-2.jpg" height="75" width="75"><a href="#">The Unknow powers of CSS</a>
-                        <p class="related-author">BY Jim Dillon</p>
+                    <li class="related-post">
+                        <img src="img/related-2.jpg" height="75" width="75">
+                        <div>
+                            <a href="#">The Unknow powers of CSS</a>
+                            <p class="related-author">BY Jim Dillon</p>
+                    </div>                        
                     </li>
-                    <li>
-                        <img src="img/related-3.jpg" height="75" width="75"><a href="#">Why Javascript is Awsome</a>
-                        <p class="related-author">BY Matilda</p>
+                    <li class="related-post">
+                        <img src="img/related-3.jpg" height="75" width="75">
+                        <div>
+                            <a href="#">Why Javascript is Awsome</a>
+                            <p class="related-author">BY Matilda</p>
+                        </div>
                     </li>
                 </ul>
             </aside>
